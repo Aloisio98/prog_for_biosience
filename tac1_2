@@ -1,0 +1,15 @@
+refArquivo = open("/home/aloisio/Downloads/TcCLB.506717.80_AA.fasta")
+cabecalho = refArquivo.readline()[1:-1]
+sequencia = ""
+for linha in refArquivo:
+   if cabecalho
+     if sequencia != ""
+print ("Cabecalho: %s"%cabecalho)
+print ("Sequencia: %s"%sequencia )
+   else:
+    sequencia += linha.replace('\n','')
+refArquivo.close()
+
+
+
+
